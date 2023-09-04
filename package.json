@@ -1,0 +1,45 @@
+{
+  "name": "joa",
+  "version": "1.0.0",
+  "description": "Joa web app framework",
+  "main": "lib/application.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JoHwanhee/joa.git"
+  },
+  "keywords": [
+    "web"
+  ],
+  "author": "jayden",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JoHwanhee/joa/issues"
+  },
+  "homepage": "https://github.com/JoHwanhee/joa#readme",
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^5.1.0",
+    "eslint-plugin-standard": "^5.0.0",
+    "gen-esm-wrapper": "^1.0.6",
+    "jest": "^28.1.3",
+    "supertest": "^6.2.4"
+  },
+  "jest": {
+    "verbose": true
+  },
+  "dependencies": {
+    "cookies": "^0.8.0",
+    "debug": "^4.3.4",
+    "delegates": "^1.0.0",
+    "http-assert": "^1.5.0",
+    "http-errors": "^2.0.0",
+    "on-finished": "^2.4.1",
+    "statuses": "^2.0.1"
+  }
+}
